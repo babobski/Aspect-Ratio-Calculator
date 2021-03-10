@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'nonce-${nonce}'; style-src 'nonce-${nonce}'">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="${styleMainUri}" nonce="${nonce}" rel="stylesheet">
+    <title>Aspect Ratio Generator</title>
+</head>
+<body>
+    <div class="aspect-ratio-form">
+        <div class="form-elelements">
+            <div class="col">
+                <input type="text" id="width" placeholder="Width">
+            </div>
+            <div class="col">
+                <input type="text" id="height" placeholder="Height">
+            </div>
+            <div class="col">
+                <button id="get_result">
+                    Calculate
+                </button>
+            </div>
+            <div class="col">
+                <div id="result">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+<script nonce="${nonce}" src="${scriptAspectRatioUri}"></script>
+</body>
+</html>
