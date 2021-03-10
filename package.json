@@ -5,6 +5,10 @@
   "publisher": "Babobski",
   "icon": "images/icon.png",
   "version": "0.0.1",
+  "repository": {
+		"type": "git",
+		"url": "hhttps://github.com/babobski/Aspect-Ratio-Calculator"
+	},
   "engines": {
     "vscode": "^1.54.0"
   },
