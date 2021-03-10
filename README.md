@@ -4,4 +4,4 @@ Just a simple tool for calculating [Aspect Ratio](https://www.w3schools.com/howt
 
 ## preview
 
-![Screensho](images/screenshot.png)
+![Screenshot](images/screenshot.jpg)
